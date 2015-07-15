@@ -1,0 +1,32 @@
+{
+  "name": "thias-npd6",
+  "version": "1.0.0",
+  "author": "Matthias Saou",
+  "license": "Apache-2.0",
+  "summary": "Neighbor Proxy Daemon for IPv6 module",
+  "source": "git://github.com/thias/puppet-npd6",
+  "project_page": "https://github.com/thias/puppet-npd6",
+  "issues_url": "https://github.com/thias/puppet-npd6/issues",
+  "tags": ["npd", "ipv6", "networking"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem": "RedHat",
+    "operatingsystemrelease": [ "5", "6", "7" ]
+    },
+    {
+    "operatingsystem": "CentOS",
+    "operatingsystemrelease": [ "5", "6", "7" ]
+    }
+  ],
+  "requirements": [
+    {
+    "name": "pe",
+    "version_requirement": "3.x 4.x"
+    },
+    {
+    "name": "puppet",
+    "version_requirement": ">=2.7.20 <4.1.0"
+    }
+  ],
+  "dependencies": []
+}

@@ -1,5 +1,5 @@
-class { 'npd6':
-    prefix    => '2001:aaaa:bbbb:cccc:',
-    interface => 'br0',
+class { '::npd6':
+  prefix    => '2001:db8:2:60a6::/64',
+  interface => 'br0',
 }
 
