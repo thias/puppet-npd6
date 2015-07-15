@@ -8,9 +8,11 @@ class npd6 (
   $exprlist       = [],
   $listlogging    = 'off',
   $collecttargets = '100',
+  # lint:ignore:quoted_booleans Those parameters are strings in the template
   $linkoption     = 'false',
   $ignorelocal    = 'true',
   $routerna       = 'true',
+  # lint:endignore
   $maxhops        = '255',
   $pollerrorlimit = '20',
 ) {

@@ -1,3 +1,6 @@
+#### 2015-07-15 - 1.0.1
+* Add lint:ignore to try and make puppet-lint happy.
+
 #### 2015-07-15 - 1.0.0
 * Replace Modulefile with metadata.json.
 * Major cosmetic updates.
