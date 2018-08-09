@@ -11,6 +11,7 @@ Options for `/etc/npd6.conf`. See `npd6.conf(5)` for details :
 
  * `prefix` : Mandatory IPv6 prefix
  * `interface` : Defaults to `eth0`
+ * `prefix_interface` : Additional `prefix => interface` pairs
  * `ralogging`
  * `listtype`
  * `addrlist` : Array

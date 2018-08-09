@@ -1,20 +1,21 @@
 # Class: npd6
 class npd6 (
   $prefix,
-  $interface      = 'eth0',
-  $ralogging      = 'off',
-  $listtype       = 'none',
-  $addrlist       = [],
-  $exprlist       = [],
-  $listlogging    = 'off',
-  $collecttargets = '100',
+  $interface        = 'eth0',
+  $prefix_interface = {},
+  $ralogging        = 'off',
+  $listtype         = 'none',
+  $addrlist         = [],
+  $exprlist         = [],
+  $listlogging      = 'off',
+  $collecttargets   = '100',
   # lint:ignore:quoted_booleans Those parameters are strings in the template
-  $linkoption     = 'false',
-  $ignorelocal    = 'true',
-  $routerna       = 'true',
+  $linkoption       = 'false',
+  $ignorelocal      = 'true',
+  $routerna         = 'true',
   # lint:endignore
-  $maxhops        = '255',
-  $pollerrorlimit = '20',
+  $maxhops          = '255',
+  $pollerrorlimit   = '20',
 ) {
 
   package { 'npd6': ensure => 'installed' } ->

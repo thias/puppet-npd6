@@ -15,6 +15,10 @@ interface = <%= @interface %>
 // Note that an unlimited number of prefix/interface
 // pairs can be used. Also note that the prefix can be set to 
 // 0::/0 which in effect matches anything at all.  
+<% @prefix_interface.each do |prefix, interface| -%>
+prefix = <%= prefix %>
+interface = <%= interface %>
+<% end -%>
 
 // Router Advertisement Logging
 // Log and decode options in received Router Advertisements
