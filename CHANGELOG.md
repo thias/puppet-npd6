@@ -1,3 +1,4 @@
+#### 2018-08-21 - 1.0.2
 * Add prefix_interface parameter for proxying multiple prefixes.
 
 #### 2015-07-15 - 1.0.1

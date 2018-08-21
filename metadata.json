@@ -1,6 +1,6 @@
 {
   "name": "thias-npd6",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Matthias Saou",
   "license": "Apache-2.0",
   "summary": "Neighbor Proxy Daemon for IPv6 module",
@@ -20,12 +20,8 @@
   ],
   "requirements": [
     {
-    "name": "pe",
-    "version_requirement": "3.x 4.x"
-    },
-    {
     "name": "puppet",
-    "version_requirement": ">=2.7.20 <4.1.0"
+    "version_requirement": ">=2.7.20 <6.0.0"
     }
   ],
   "dependencies": []
